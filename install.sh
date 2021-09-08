@@ -9,3 +9,7 @@ wget https://download.tinkerforge.com/apt/$(lsb_release -is | tr [A-Z] [a-z])/ar
 sudo sh -c "echo 'deb https://download.tinkerforge.com/apt/$(lsb_release -is | tr [A-Z] [a-z]) $(lsb_release -cs) main' > /etc/apt/sources.list.d/tinkerforge.list"
 sudo apt update
 sudo apt install brickd
+
+sudo apt install python3-pip
+pip3 install json
+pipe install paho-mqtt
