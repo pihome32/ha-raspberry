@@ -12,4 +12,5 @@ sudo apt install brickd
 
 sudo apt install python3-pip
 pip3 install json
-pipe install paho-mqtt
+pip3 install paho-mqtt
+sudo apt install python3-tinkerforge
