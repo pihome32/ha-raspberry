@@ -1,7 +1,7 @@
 {
 "tinkerforge/request/air_quality_bricklet/GKX/set_temperature_offset": {"offset": 150},
 "tinkerforge/register/air_quality_bricklet/GKX/all_values/living_room/air_quality": {"register": true},
-"tinkerforge/request/air_quality_bricklet/GKX/set_temperature_callback_configuration": {"period": 30000, "value_has_to_change":true, "min":0,"max":0,"option":"x"},
+"tinkerforge/request/air_quality_bricklet/GKX/set_all_values_callback_configuration": {"period": 30000, "value_has_to_change":false, "min":0,"max":0,"option":"x"},
 "tinkerforge/request/air_quality_bricklet/GKX/set_status_led_config":{"config":0},
 "tinkerforge/request/master_brick/6e7cYn/disable_status_led":{},
 	
