@@ -14,4 +14,5 @@ pip3 install json
 pip3 install paho-mqtt
 sudo apt install python3-tinkerforge
 
+sudo apt install build-essential git curl
 bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
